@@ -1,0 +1,15 @@
+profile                         = ["Devops-User","tino"]
+region                          = ["eu-west1","eu-west-2"]
+public_cidr                     = ["10.0.0.0/28","10.0.0.16/28"]
+private_cidr                     = ["10.0.0.32/28","10.0.0.48/28"]
+london_az                       = ["eu-west-2a","eu-west-2b","eu-west-2c"]
+ireland_az                      = ["eu-west-1a","eu-west-1b","eu-west-1c"]
+public_az                       = ["eu-west-2a","eu-west-2b"]
+private_az                       = ["eu-west-2b","eu-west-2c"]
+public_subnet_name              = ["demo-training-public-subnet-1","demo-training-public-subnet-2"]
+private_subnet_name              = ["demo-training-private-subnet-1","demo-training-private-subnet-2"]
+rtb_amt                         = 2
+rtb_name                        = ["demo-training-rtb-1","demo-training-rtb-2"]
+key_name                        = "tino2025"
+public_instance_name            = ["demo-training-public-server-1","demo-training-public-server-2"]
+private_instance_name            = ["demo-training-private-server-1","demo-training-private-server-2"]
