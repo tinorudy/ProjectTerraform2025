@@ -1,0 +1,10 @@
+# Terraform
+.terraform
+.terragrunt
+*.tfstate
+*.tfstate.backup
+.plugins
+
+# Binaries
+bin/terragrunt
+bin/terraform
